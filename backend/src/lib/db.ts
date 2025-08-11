@@ -1,4 +1,4 @@
-import mongoose = require('mongoose');
+import mongoose from "mongoose";
 
 export const connectMongo = async (uri: string) => {
   if (!uri) throw new Error('Missing MongoDB URI');
